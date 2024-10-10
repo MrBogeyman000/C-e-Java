@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(128, 89, 146);
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div a{
+    color: rgb(0, 0, 0);
+    text-decoration: solid;
+    font-size: 19px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div img{
+    width: 1000px;
+    height: 500px; 
+}
+
+img{
+    border-radius: 10px;
+    border: solid rgb(0, 0, 0);
+}
+
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 23px;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 29px;
+}
+
+a{
+    text-decoration: solid;
+    color: rgb(148, 43, 132);
+}
+
+small{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <a href="index.html">|   Principal   |</a>
+        <a href="index2.html">Tinkercad   |</a>
+        <a href="index3.html">C++   |</a>
+        <a href="index4.html">Java   |</a>
+    </div>
+    <br>
+    <h1>Linguagem de Programação C++</h1>
+    <br>
+    <h2>O que é?</h2>
+    <br>
+    <p>Como dito anteriormente. C++ é uma linguagem de programação de propósito geral, permitindo programação de alto nível e oferecendo controle direto sobre o hardware. Ele é muito utilizado em diversas áreas, como jogos e inteligência artificial.</p>
+    <br>
+    <h2>Quando foi criado?</h2>
+    <br>
+    <p>Ele foi criado em 1970, por " Dennis Ritchie ". Mas recebeu sua primeira versão em 1983, quando " Bjarne Stroustrup ", um estudante de doutorado da época. adicionou recursos de programação orientada a objetos.</p>
+    <br>
+    <h2>É muito difícil aprender C++?</h2>
+    <p>Tendo diversas oportunidades para quem souber dominar essa linguagem. Ele não é muito difícil, é uma dificuldade média em relação a outras linguagens, mas depende da dedicação do desenvolvedor ao aprender esta linguagem.</p>
+    <br>
+    <h2>O que se pode criar com C++?</h2>
+    <br>
+    <p>Pode-se criar diversas coisas, como programas e até bibliotecas e compiladores para outras linguagens de programação. Um fato interessante é que pode-se criar jogos com C++. Akguns jogos são " The Witcher 3, Dark Souls e Elder Scrolls V: Skyrim ".</p>
+    <br>
+    <h2>Exemplo em imagem de um Código C++</h2>
+    <br>
+    <div> <img src="Sem título.jpg" alt="codigo c++"></div>
+    <br>
+    <h2>Exemplo em texto</h2>
+    <br>
+    <pre>// C++ code
+        int pot01 = 0, int pot02 = 0, int res = 0;
+        void setup()
+        {
+          pinMode(12, OUTPUT);
+          pinMode(A0, INPUT);
+          Serial.begin(9600);
+          pinMode(A1, INPUT);
+          pot01 = 0;
+          pot02 = 0;
+          res = 0;
+          digitalWrite(12, LOW);
+        }
+        void loop()
+        {
+          pot01 += analogRead(A0);
+          Serial.println("pot01-------------------------");
+          Serial.println(pot01);
+          pot02 += analogRead(A1);
+          Serial.println("pot02-------------------------");
+          Serial.println(pot02);
+          if (pot01 > pot02) {
+            res += (pot01 + pot02);
+            Serial.println("res---------------------------");
+            Serial.println(res);
+            digitalWrite(12, HIGH);
+          } else {
+            digitalWrite(12, LOW);
+          }
+          delay(1); // Wait for 1 millisecond(s)
+        }
+    </pre>
+    
+</body>
+</html>

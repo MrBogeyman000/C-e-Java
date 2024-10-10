@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <a href="index.html">|   Principal   |</a>
+        <a href="index2.html">Tinkercad   |</a>
+        <a href="index3.html">C++   |</a>
+        <a href="index4.html">Java   |</a>
+    </div>
+    <h1>Java</h1>
+    <br>
+    <h2>O que é?</h2>
+    <br>
+    <p>Como dito anteriormente é uma linguagem de programação orientada ao objeto, que pode ser executada em diversos dispositivos, mais precisamente em Bilhões de dispositivos no mundo todo. É uma linguagem de programação rápida e segura, podendo ser executada em aplicativos e softwares empresarias.</p>
+    <br>
+    <h2>Quando foi criado?</h2>
+    <br>
+    <p>Criada na década de 90, por uma equipe de programadores chefiada por " James Gosling " na empresa " Sun Microsystems ". Mas em 2008 foi comprada pela empresa " Oracle Corporation "</p>
+    <br>
+    <h2>É muito difícil aprender Java?</h2>
+    <br>
+    <p>Aprender Java pode ser desafiador, mas com esforço, dedicação do programador e recursos adequados, é sim possível aprender Java. Ele costuma ser difícil por causa de sua forma de se escrever o código, a quantidade de coisas novas e os tipos de dados usados no Java.  </p>
+    <br>
+    <h2>O que se pode criar com Java?</h2>
+    <br>
+    <p>Como dito antes pode-se criar aplicativos, tanto móveis quando na Web. Softwares empresarias e até jogos podem ser criados com Java. Um jogo bem conhecido que foi criado com Java, é o " Minecraft ". Que possuí sua versão para computadores, tendo seu próprio nome " Minecraft Java".</p>
+    <br>
+    <h2>Exemplo em Imagem de Código Java</h2>
+    <br>
+    <img src="Sem título java.jpg" alt="codigo java">
+    <br>
+    <h2>Exemplo em Texto de Código Java</h2>
+    <br>
+    <pre>
+        import java.util.Scanner;
+
+public class programa04 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int pot01 = 0, pot02 = 0, res = 0;
+        boolean led = false;
+
+        System.out.println(" Digite o valor do sensor potenciômetro 1: ");
+        pot01 = sc.nextInt();
+        System.out.println(" Digite o valor do sensor potenciômetro 1: ");
+        pot02 = sc.nextInt();
+
+        if(pot01 > pot02){
+            res += pot01 + pot02;
+            System.out.printf(" A resposta é: %d ", res);
+            led = true;
+        }else{
+            led = false;
+        }
+        sc.close();
+    }
+}   
+    </pre>
+    
+</body>
+</html>
